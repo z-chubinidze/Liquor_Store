@@ -1,0 +1,1754 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("./fonts/flaticon/font/Flaticon.eot");
+    src: url("./fonts/flaticon/font/eot?#iefix") format("embedded-opentype"),
+        url("./fonts/flaticon/font/Flaticon.woff2") format("woff2"),
+        url("./fonts/flaticon/font/Flaticon.woff") format("woff"),
+        url("./fonts/flaticon/font/Flaticon.ttf") format("truetype"),
+        url("./fonts/flaticon/font/Flaticon.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 1200px) {
+    .section-6 .mein-box .calendar-box h4 a {
+        font-size: 15px !important;
+        line-height: 1.2 !important;
+    }
+
+    .section-6 .mein-box .calendar-box .description {
+        font-size: 14px !important;
+        line-height: 1.2 !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .section-2 .fluid-3 .Desire {
+        font-size: 24px !important;
+    }
+
+    .section-2 .fluid-3 .par-1,
+    .section-2 .fluid-3 .par-2 {
+        font-size: 15px !important;
+        line-height: 1.2 !important;
+    }
+
+    .section-2 .fluid-3 .year span {
+        font-size: 26px !important;
+        line-height: 1.2 !important;
+    }
+
+    .section-6 .mein-box .calendar-box h4 a {
+        font-size: 20px !important;
+        line-height: 1.5 !important;
+    }
+
+    .section-6 .mein-box .calendar-box .description {
+        font-size: 16px !important;
+        line-height: 1.8 !important;
+    }
+
+    .footer .fluid-5 .liq {
+        font-size: 16px !important;
+    }
+
+    .footer .fluid-5 .cont-info-2 h4 {
+        font-size: 16px !important;
+    }
+
+    .footer .fluid-5 .cont-info-1 .circle {
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    .footer .fluid-5 .cont-info-2 ul li a {
+        font-size: 14px !important;
+    }
+
+    .footer .fluid-5 .cont-info-2 ul li {
+        line-height: 1.2 !important;
+    }
+
+    .footer .fluid-5 .cont-info-2 ul li a {
+        font-size: 10px !important;
+    }
+
+    .footer .fluid-5 .cont-info-1 p {
+        font-size: 11px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-nav>.nav-item>.nav-link:hover {
+        background-color: transparent !important;
+    }
+
+    .dropdown ul {
+        width: 70% !important;
+        padding-left: 30px !important;
+    }
+
+    .section-1 .middle-text h1 {
+        font-size: 35px !important;
+    }
+
+    .section-1 .fluid-1 {
+        background-position: 50% !important;
+    }
+
+    .nav-fluid {
+        padding: 0 !important;
+    }
+
+    .navb-container {
+        padding: 0 !important;
+    }
+
+
+
+    .navbar-nav {
+        background-color: rgba(0, 0, 0, 0.808);
+    }
+
+    .section-2 .fluid-3 .image-1 {
+        height: 400px !important;
+
+    }
+
+    .carousel-control-next-icon {
+        right: -18px !important;
+        top: 55% !important;
+    }
+
+    .carousel-control-prev-icon {
+        left: -18px !important;
+        top: 55% !important;
+    }
+
+    .section-6 .mein-box {
+        height: auto !important;
+    }
+
+    .section-6 {
+        margin-bottom: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .footer .fluid-5 .cont-info-2 ul li {
+        line-height: .8 !important;
+    }
+
+    .footer .fluid-5 .cont-info-2 ul li a {
+        font-size: 14px !important;
+        line-height: .8 !important;
+    }
+
+    .footer .fluid-5 .cont-info-1 p {
+        font-size: 14px !important;
+        line-height: 1.3 !important;
+    }
+
+    .footer .fluid-5 .liq {
+        font-size: 14px !important;
+    }
+
+    .section-5 .carousell-content {
+        padding: 20px 15px 20px 15px !important;
+    }
+
+    .footer .fluid-5 .liq span {
+        font-size: 14px !important;
+    }
+
+    .footer .fluid-5 .cont-info-2 h4 {
+        font-size: 16px !important;
+    }
+
+    .navbar-nav>.nav-item>.nav-link {
+        font-size: 12px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .section-1 .fluid-2 .support-1 h3 {
+        font-size: 14px !important;
+    }
+
+    .section-1 .fluid-2 .support-1 p {
+        font-size: 14px !important;
+        line-height: 1.2 !important;
+    }
+
+    .section-5 .carousell-content .description {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+    }
+
+    .footer .foot p {
+        font-size: 14px !important;
+        text-align: center !important;
+    }
+
+    .section-1 .fluid-1 {
+        height: 550px !important;
+    }
+
+    .section-2 .fluid-3 .year {
+        text-align: center !important;
+    }
+
+    .section-3 .total-cont .Subtotal {
+        width: 80% !important;
+    }
+
+    .section-2 label {
+        font-size: 14px !important;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .section-5 .carousell-content .person img {
+        width: 64px !important;
+        height: 64px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .navbar-brand {
+        font-size: 16px !important;
+    }
+
+    .section-1 .fluid-2 .support-1 {
+        padding: 15px 5px 15px 5px !important;
+    }
+
+    .section-5 .carousell-content .person-info .Fulname {
+        font-size: 18px !important;
+    }
+
+    .section-5 .carousell-content .person-info .profesion {
+        font-size: 12px !important;
+    }
+
+    .fa-facebook,
+    .fa-dribbble,
+    .fa-twitter,
+    .fa-instagram {
+        font: normal normal normal 12px/1 FontAwesome !important;
+    }
+
+    .sign-btn a {
+        font-size: 11px !important;
+    }
+
+    .footer .foot p {
+        font-size: 10px !important;
+    }
+
+    .px-4 {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.top-cont {
+    background-color: #a23f25;
+
+}
+
+.fa-facebook,
+.fa-dribbble,
+.fa-twitter,
+.fa-instagram {
+    color: #FFF;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.fa-phone,
+.fa-paper-plane {
+    color: rgba(255, 255, 255, 0.6);
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.sign-btn a {
+    text-decoration: none;
+    font-family: "Flaticon";
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+}
+
+.navb-container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar-brand {
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 24px;
+    line-height: inherit;
+    white-space: nowrap;
+    font-family: "Flaticon";
+    font-weight: 700;
+    font-size: 24px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.navbar-brand span {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler {
+    border: 0;
+    outline: 0;
+}
+
+.navbar-toggler span {
+    color: rgba(255, 255, 255, 0.5) !important;
+    cursor: pointer;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .15em;
+    font-family: "Flaticon";
+
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.product-nmbers {
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    color: rgba(255, 255, 255, 0.5);
+    height: 18px;
+    line-height: 1;
+    border-radius: 50%;
+    padding: 0 5px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.fa-shopping-bag {
+    color: #b7472a;
+    font-size: 24px;
+
+}
+
+.navbar-nav>.nav-item>.nav-link {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFF;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 1 !important;
+    font-family: "Flaticon";
+}
+
+.navbar-nav>.nav-item>.active {
+    color: #FFF !important;
+}
+
+.navbar-nav>.nav-item>.active:hover {
+    color: #b7472a !important;
+    transition: .5s;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: #b7472a;
+}
+
+.navbar-nav>.nav-item>.nav-link:hover{
+    color: #b7472a;
+    transition: .5s;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ftco-navbar-light {
+    background: rgb(17, 16, 16) !important;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 10px 0;
+}
+
+.dropdown ul {
+    background-color: #a23f25;
+    width: 180px;
+    border-radius: 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.dropdown ul .dropdown-item {
+    color: rgba(255, 255, 255, 0.726);
+    font-family: "Flaticon";
+    font-size: 18px;
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 600;
+    border-bottom: 1px solid #FFF;
+    border-style: dotted;
+}
+
+.dropdown ul .dropdown-item:hover {
+    background-color: transparent;
+    transform: translateX(10px);
+    transition: .5s;
+}
+
+.section-1 .fluid-1 {
+    background-image: url(./images/bg_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.btn.btn-primary {
+    background: #b7472a !important;
+    border: 1px solid #b7472a !important;
+    color: #fff !important;
+}
+
+.btn.btn-white.btn-outline-white {
+    border: 1px solid white !important;
+    background: transparent !important;
+    color: #fff !important;
+}
+
+.btn.btn-white.btn-outline-white:hover {
+    border: 1px solid #b7472a !important;
+    background: #b7472a !important;
+    color: #fff !important;
+}
+
+.section-1 .middle-text {
+    padding: 30px 0;
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+}
+
+.section-1 .middle-text h1 span {
+    color: red;
+
+}
+
+.section-1 .middle-text h1 {
+    font-size: 80px;
+    color: #fff;
+    font-family: "Flaticon";
+    line-height: 1.1;
+    font-weight: 700;
+    font-style: italic;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.section-1 .middle-text h1 span {
+    color: #b7472a;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 0px;
+}
+
+.flaticon-support,
+.flaticon-cashback,
+.flaticon-free-delivery {
+    font-size: 60px;
+    color: #FFF;
+    font-family: "Flaticon";
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    font-family: "Flaticon";
+    font-size: 60px;
+    font-style: normal;
+
+}
+
+.flaticon-shopping-bag:before {
+    content: "\f100";
+
+}
+
+.flaticon-support:before {
+    content: "\f101";
+}
+
+.flaticon-cashback:before {
+    content: "\f102";
+}
+
+.flaticon-free-delivery:before {
+    content: "\f103";
+}
+
+.flaticon-heart:before {
+    content: "\f104";
+}
+
+.flaticon-visibility:before {
+    content: "\f105";
+}
+
+.section-1 .fluid-2 {
+    background-color: #b7472a;
+
+}
+
+.section-1 .fluid-2 .support-1 h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Flaticon";
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.section-1 .fluid-2 .support-1 p {
+    font-family: "Spectral", serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.section-1 .fluid-2 .support-1 {
+    padding: 40px 20px 40px 20px;
+}
+
+.section-2 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.section-2 .fluid-3 .since {
+    font-size: 18px;
+    display: inline-block;
+    font-family: "Spectral", serif;
+    margin-bottom: 0;
+    color: #b7472a;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    position: relative;
+}
+
+.section-2 .fluid-3 .Desire {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Spectral", serif;
+    line-height: 1.5;
+    color: black;
+}
+
+.section-2 .fluid-3 .par-1,
+.section-2 .fluid-3 .par-2 {
+    font-family: "Spectral", serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+.section-2 .fluid-3 .year strong {
+    font-family: "Spectral", serif;
+    color: #b7472a;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+.section-2 .fluid-3 .year span {
+    font-family: "Spectral", serif;
+    font-size: 30px;
+    color: #000000;
+    line-height: 1.8;
+    font-weight: 300;
+    text-align: left;
+}
+
+.section-2 .fluid-3 .image-1 {
+    background-image: url(./images/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.section-3 .sort .img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-3 .sort .img:after {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    content: '';
+    border: 1px solid #b7472a;
+    z-index: -1;
+    border-radius: 50%;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.section-3 .sort .img:hover:after {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-color: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.section-3 .sort .img:after {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    content: '';
+    border: 1px solid #b7472a;
+    z-index: -1;
+    border-radius: 50%;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.section-3 .sort h3 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 0.5rem;
+    font-family: "Spectral", serif;
+    margin-top: 0;
+}
+
+.section-3 {
+    margin-bottom: 100px;
+}
+
+.section-4 .product-img {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.section-4 .products .product-info .brendi {
+    font-style: italic;
+    color: #b7472a;
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.section-4 .products .product-info h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 10px;
+    font-family: "Spectral", serif;
+}
+
+.section-4 .products .product-info .sale {
+    color: #cccccc;
+    text-decoration: line-through;
+    font-family: "Spectral", serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.section-4 .products .product-info p {
+    font-style: italic;
+    color: #000000;
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.section-4 .title h6 {
+    font-style: italic;
+    color: #b7472a;
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.section-4 .title h2 {
+    font-family: "Spectral", serif;
+    line-height: 1.5;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-4 .title {
+    margin-bottom: 60px;
+}
+
+.section-4 .oll-products .button-2 {
+    background: #b7472a !important;
+    border: 1px solid #b7472a !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+    font-family: "Spectral", serif;
+    border-radius: 3px;
+    padding: 7px 40px 5px 40px;
+}
+
+.section-5 .fluid-5 {
+    background-image: url(./images/bg_4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+    padding: 80px 0;
+}
+
+.section-5 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #000000;
+    opacity: 0.7;
+}
+
+.section-5 .title-2 .Testimonial {
+    color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    position: relative;
+    font-family: "Spectral", serif;
+    line-height: 1.8;
+
+}
+
+.section-5 .title-2 .Happy-Clients {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 700;
+    font-family: "Spectral", serif;
+    line-height: 1.5;
+    position: relative;
+
+}
+
+.section-5 .carousell-content {
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    border-radius: 8px;
+    padding: 30px 24px 30px 24px;
+}
+
+.section-5 .carousell-content .person img {
+    width: 80px;
+    height: 80px;
+}
+
+.section-5 .carousell-content .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #a23f25;
+    border-radius: 50%;
+    transform: translate(0, -50%);
+}
+
+.section-5 .carousell-content .description {
+    font-family: "Spectral", serif;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.section-5 .carousell-content .person-info .Fulname {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #fff;
+    font-style: normal !important;
+    line-height: 1.8;
+}
+
+.section-5 .carousell-content .person-info .profesion {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    font-style: normal !important;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    right: -60px;
+    top: 55% !important;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    left: -60px;
+    top: 55% !important;
+}
+
+.carousel-indicators {
+    bottom: -90px !important;
+}
+
+.carousel-indicators button {
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50%;
+    border: 1px solid #FFF !important;
+    opacity: 1 !important;
+
+}
+
+.carousel-indicators .active {
+    background: #a23f25 !important;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.section-6 .mein-box .calendar-box .calend {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+.section-6 .mein-box .calendar-box h4 a {
+    font-family: "Spectral", serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.5;
+    color: black;
+    text-decoration: none;
+
+}
+
+.section-6 .mein-box .calendar-box h4 a:hover {
+    color: #a23f25 !important;
+
+}
+
+.section-6 .mein-box .calendar-box .description {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+
+}
+
+.section-6 .mein-box .calendar-box a {
+    text-decoration: none;
+
+}
+
+.section-6 .mein-box .calendar-box .btn-custom {
+    color: #b7472a;
+    font-style: italic;
+    font-weight: 700;
+    background-color: transparent;
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.section-6 {
+    margin-bottom: 80px;
+}
+
+.section-6 .title-3 p {
+    font-family: "Spectral", serif;
+    margin-bottom: 0;
+    color: #b7472a;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    position: relative;
+}
+
+.section-6 .title-3 h2 {
+    font-family: "Spectral", serif;
+    margin-bottom: 0;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+}
+
+.section-6 .mein-box {
+    height: 310px;
+}
+
+.footer .fluid-5 .liq {
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-family: "Spectral", serif;
+    color: #fff;
+}
+
+.footer .fluid-5 .liq span {
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-family: "Spectral", serif;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer .fluid-5 .liq:hover {
+    color: #b7472a;
+}
+
+.footer .fluid-5 .cont-info-1 p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    font-family: "Spectral", serif;
+}
+
+.footer .fluid-5 .cont-info-1 .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #a23f25;
+    text-decoration: none;
+}
+
+.footer .fluid-5 .cont-info-1 .circle:hover {
+    transform: translateY(-8px);
+    transition: .4s;
+}
+
+.fa-map {
+    font-size: 18px;
+    color: #FFF;
+}
+
+.footer .fluid-5 .cont-info-2 h4 {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Spectral", serif;
+
+}
+
+.footer .fluid-5 .cont-info-2 ul li {
+    margin-bottom: 10px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.footer .fluid-5 .cont-info-2 ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Spectral", serif;
+    line-height: 1.8;
+    font-weight: 300
+}
+
+.footer .fluid-5 .cont-info-2 ul li a span {
+    margin-right: 10px;
+}
+
+.footer .fluid-5 .cont-info-2 ul li:hover {
+    transform: translateY(-4px);
+    transition: .4s;
+}
+
+.products:hover {
+    box-shadow: 5px 5px 10px rgb(78, 76, 76);
+    transition: .4s ease;
+}
+
+
+
+.products .products-overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    height: 100%;
+    opacity: 0;
+}
+
+.products:hover .products-overlay {
+    opacity: .7 !important;
+    transition: .5s;
+}
+
+.products:hover .desc {
+    opacity: 1 !important;
+    z-index: 2;
+    transition: .5s;
+    opacity: 1 !important;
+}
+
+.products .product-img .desc a {
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+
+}
+
+.products .product-img .desc .fa-shopping-bag {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.products .product-img .desc .fa-heart {
+    color: #FFF;
+    font-size: 18px;
+
+}
+
+.products .product-img .desc .fa-eye {
+    color: #FFF;
+    font-size: 18px;
+
+}
+
+.footer .foot p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .foot p {
+    color: rgba(255, 255, 255, .5);
+    font-size: 16px;
+    font-family: "Spectral", serif;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.footer .foot p a:hover {
+    color: #a23f25;
+}
+
+.section-1 .middle-text .about {
+    font-size: 80px;
+    color: #fff;
+    font-family: "Flaticon";
+    line-height: 1.1;
+    font-weight: 700;
+    font-style: italic;
+    color: transparent;
+    -webkit-text-fill-color: #b7472a;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.counted-number .number {
+    font-weight: 500;
+    font-size: 40px;
+    color: #b7472a;
+    font-style: italic;
+    font-family: "Spectral", serif;
+}
+
+.counted-number h3 {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: "Spectral", serif;
+}
+
+.icon-for-info .fa-map-marker,
+.icon-for-info .fa-phone,
+.icon-for-info .fa-paper-plane,
+.icon-for-info .fa-globe {
+    font-size: 30px;
+    color: #FFF;
+}
+
+.contac-info,
+.contac-info-2 {
+    font-weight: 600;
+    color: #000000;
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.contac-info span {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+.contac-info-2 span {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #b7472a;
+}
+
+.gm-err-content {
+    border-radius: 1px;
+    padding-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: static;
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+}
+
+.gm-err-content .gm-err-title {
+    margin: 5px;
+    margin-bottom: 20px;
+    color: #3c4043;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+.gm-err-content .gm-err-message {
+    margin: 5px;
+    color: #3c4043;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.contact-wrap .cont-us {
+    line-height: 1.5;
+    color: black;
+    font-weight: 400;
+    font-size: 1.75rem;
+    font-family: "Spectral", serif;
+}
+
+.contact-wrap form label {
+    color: #b7472a !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-family: "Spectral", serif;
+}
+
+.contact-wrap form input {
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Spectral", serif;
+    color: #b7472a !important;
+}
+
+.contact-wrap form input:focus {
+    border-color: #a23f25 !important;
+    transition: .5s;
+}
+
+.contact-wrap form textarea {
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    ;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Spectral", serif;
+    color: #b7472a !important;
+    padding-top: 10px;
+}
+
+.contact-wrap form textarea:focus {
+    border-color: #a23f25 !important;
+    box-shadow: none;
+    transition: .5s;
+}
+
+.contact-wrap form textarea::placeholder {
+    color: gray !important;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Spectral", serif;
+}
+
+.contact-wrap form input::placeholder {
+    color: gray !important;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Spectral", serif;
+}
+
+.select-products select {
+    width: 30%;
+    background-color: rgba(201, 193, 193, 0.363);
+    border: 1px solid gray;
+}
+
+.select-products select:focus {
+    box-shadow: none !important;
+    border: 1px solid gray !important;
+}
+
+.pagination ul li {
+    display: inline-block;
+}
+
+.pagination ul li a,
+.pagination ul li span {
+    color: #b7472a;
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e6e6e6;
+    text-decoration: none;
+}
+
+.pagination ul li.active span {
+    background: #b7472a;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.pagination ul li:hover a {
+    background: #b7472a;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.categories ul li {
+    display: inline-block;
+    width: 100%;
+}
+
+.categories li,
+.sidelink li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+    list-style: none;
+}
+
+.categories li a {
+    text-decoration: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    padding: 5px 0;
+    font-family: "Spectral", serif;
+}
+
+.categories li:hover a {
+    color: #b7472a !important;
+    transform: translateX(20px);
+    transition: .3s;
+}
+
+.section-4 .select-products h6 {
+    font-family: "Spectral", serif;
+    line-height: 1.5;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.section-4 .select-products select {
+    font-family: "Spectral", serif;
+    line-height: 1.5;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.section-4 .categories h3 {
+    font-family: "Spectral", serif;
+    line-height: 1.5;
+    color: black;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.section-2 .image-4 {
+    background-image: url(./images/prod-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-2 .buttons .butt-1 {
+    height: 40px;
+    width: 45px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding: 0;
+
+}
+
+.section-2 .buttons .quantity {
+    text-align: center;
+    height: 40px;
+    width: 125px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 0;
+}
+
+.section-2 .buttons .quantity:focus {
+    box-shadow: none !important;
+}
+
+.section-2 .about-product .bacardi {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Spectral", serif;
+    color: black;
+    margin-bottom: 14px;
+}
+
+.section-2 .about-product .stars .star-rating,
+.section-2 .about-product .stars .fa-star {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    font-family: "Spectral", serif;
+    color: #b7472a;
+}
+
+.section-2 .about-product .stars .fa-star {
+    color: #b7472a;
+    font: normal normal normal 16px/1 FontAwesome;
+}
+
+.section-2 .about-product p {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+.section-2 .about-product p span {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #bbbbbbc4;
+}
+
+.section-2 .about-product .prod-price {
+    font-family: "Spectral", serif;
+    font-size: 30px;
+    color: #000000;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.section-2 .about-product .part-1 {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+.section-2 .about-product .piece {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.section-3 .tabButtons #button1,
+.section-3 .tabButtons #button2,
+.section-3 .tabButtons #button3 {
+    padding: 10px 15px !important;
+    border-radius: 0;
+    margin-bottom: 0;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, 0.05);
+    font-family: "Spectral", serif;
+    border-radius: 0;
+    line-height: 1.8;
+
+}
+
+.section-3 .tabButtons #button1.active,
+.section-3 .tabButtons #button2.active,
+.section-3 .tabButtons #button3.active {
+    color: #fff;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    background: #b7472a;
+    padding: 10px 15px !important;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Spectral", serif;
+    border-radius: 0;
+    position: relative;
+}
+
+.section-3 .tabButtons #button1.active:after,
+.section-3 .tabButtons #button2.active:after,
+.section-3 .tabButtons #button3.active:after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    width: 0;
+    content: '';
+    height: 0;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #b7472a transparent transparent transparent;
+}
+
+.section-3 .bacardi-cont-1 {
+    background: #f5f4f0 !important;
+    padding: 1.5rem;
+}
+
+.section-3 .bacardi-cont-1 .title-bacardi {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Spectral", serif;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.section-3 .bacardi-cont-1 .descrip-bacardi {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+.section-3 #reviews .bacardi-cont-1 .reviews-23 {
+    line-height: 1.5;
+    color: black;
+    font-weight: 400;
+    font-size: 1.75rem;
+    font-family: "Spectral", serif;
+}
+
+.section-3 #reviews .bacardi-cont-1 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.section-3 #reviews .bacardi-cont-1 h6 {
+    line-height: 1.5;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Spectral", serif;
+}
+
+.section-3 #reviews .bacardi-cont-1 .fa-star {
+    color: #b7472a;
+    font: normal normal normal 16px/1 FontAwesome;
+}
+
+.section-3 #reviews .bacardi-cont-1 .data {
+    font-size: 14px;
+    color: #b3b3b3;
+    font-style: italic;
+    font-family: "Spectral", serif;
+    font-weight: 400;
+}
+
+.section-3 #reviews .bacardi-cont-1 .person-review {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+    margin-top: 20px;
+}
+
+.section-3 #reviews .reviu-ranking .reviews-23 {
+    line-height: 1.5;
+    color: black;
+    font-weight: 400;
+    font-size: 1.75rem;
+    font-family: "Spectral", serif;
+
+}
+
+.section-3 #reviews .stars .fa-star {
+    color: #b7472a;
+    font: normal normal normal 16px/1 FontAwesome;
+}
+
+.section-3 #reviews .percent {
+    font-size: 16px;
+    color: #b3b3b3;
+    font-style: normal;
+    font-family: "Spectral", serif;
+    font-weight: 400;
+}
+
+h1[data-aos="fade-down"] {
+    transition: 1s;
+}
+
+.section-2 .checkout-title h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+    font-family: "Spectral", serif;
+}
+
+.section-2 label {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+    font-family: "Spectral", serif;
+    margin-bottom: 12px;
+}
+
+.section-2 form input {
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.5) !important;
+    height: 58px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: transparent !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-size: 16px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-family: "Spectral", serif;
+    outline: none !important;
+}
+
+.section-2 form input::placeholder {
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.4) !important;
+    font-size: 14px;
+    font-family: "Spectral", serif;
+}
+
+.section-2 form input:focus {
+    border: 1px solid #a23f25 !important;
+}
+
+.section-2 form {
+    margin-bottom: 16px;
+}
+
+.section-2 select {
+    border: 1px solid rgba(0, 0, 0, 0.5) !important;
+    height: 58px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: transparent !important;
+    font-size: 16px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-family: "Spectral", serif;
+    outline: none !important;
+    margin-bottom: 16px;
+}
+
+.section-2 select:focus {
+    border: 1px solid #a23f25 !important;
+}
+
+.section-3 .total-cont,
+.section-3 .Payment-Method {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.section-3 .total-cont h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+    font-family: "Spectral", serif;
+}
+
+.section-3 .Payment-Method h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+    font-family: "Spectral", serif;
+}
+
+.section-3 .total-cont .Subtotal {
+    width: 60%;
+}
+
+.section-3 .total-cont .Subtotal span {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+.section-3 .Payment-Method label {
+    font-family: "Spectral", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+
+.section-3 .Payment-Method .btn-1 {
+    background: #b7472a !important;
+    border: 1px solid #b7472a !important;
+    color: #fff !important;
+    font-family: "Spectral", serif;
+    box-shadow: none !important;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 3px !important;
+}
